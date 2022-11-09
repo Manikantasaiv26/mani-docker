@@ -1,0 +1,11 @@
+mkdir hello-docker
+hello-docker
+cd hello-docker
+code .
+node app.js
+docker build -t hello-docker .
+docker images
+docker run -d nginx
+docker ps -a
+docker stop (userid)
+docker rm (userid)
