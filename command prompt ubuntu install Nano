@@ -1,0 +1,17 @@
+docker run ubuntu   (or)    docker pull ubuntu
+docker ps
+docker ps -a
+docker run -it ubuntu    --(to come to root user)
+echo hello
+whoami
+echo $0                  --(they have two type 1.bash 2.powershell  it's go to bash)
+history
+
+installing parts from here
+apt                     --(update the tools)
+apt install nano
+apt update
+apt list
+nano                   --(it's go to nano editor) ctrl+x, no
+apt remove nano        --(y)
+nano                   --( it's removed )
